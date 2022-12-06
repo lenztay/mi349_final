@@ -1,0 +1,154 @@
+html {
+    background: whitesmoke;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: purple;
+    border-top: 10px solid white;
+    background: whitesmoke;
+}
+
+header{
+  background:whitesmoke;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+section{
+  background: white;
+}
+
+article{
+  background: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+p {
+    line-height: 1.4em;
+    width: 900px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+#blog {
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    float: right;
+}
+
+#contact {
+    color: #303030
+}
+
+a[href*="taylor"] {
+    background-color: silver;
+}
+
+.sticky {
+  background: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+
+img:nth-of-type(1) {
+    height:500px;
+    width:500px;
+    float:left;
+    margin-right:10px;
+    
+  }
+  
+  img:nth-of-type(3) {
+      height:500px;
+      width:500px;
+      float:right;
+      margin-right:10px;
+      
+    }
+
+  #image1{
+    text-align:center;
+    border-radius: 75px;
+    margin:50px auto;
+    float:left;
+  }
+
+  #image2{
+    text-align:center;
+    border-radius: 75px;
+    margin:50px auto;
+    float:right;
+  }
+
+  #image3{
+    text-align:center;
+    border-radius: 75px;
+    margin:50px auto;
+    float:left;
+  }
+
+  #image4{
+    text-align:center;
+    border-radius: 75px;
+    margin:50px auto;
+    float:right;
+  }
+
+  #image5{
+    text-align:center;
+    float:right;
+    border-radius: 50%;
+    margin:50px auto;
+  } 
+
+  #image6{
+    text-align:center;
+    margin:50px auto;
+    float:left;
+  }
+
