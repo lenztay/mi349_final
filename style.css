@@ -7,7 +7,7 @@ body {
     margin: 40px;
     padding: 40px;
     color: purple;
-    border-top: 10px solid white;
+    border-top: 10px solid purple;
     background: whitesmoke;
 }
 
@@ -37,11 +37,11 @@ h4 {
 }
 
 section{
-  background: white;
+  background: whitesmoke;
 }
 
 article{
-  background: white;
+  background: whitesmoke;
   padding: 20px;
   margin: 20px;
 }
@@ -96,20 +96,12 @@ a[href*="taylor"] {
 }
 
 img:nth-of-type(1) {
-    height:500px;
-    width:500px;
-    float:left;
-    margin-right:10px;
-    
-  }
+  height:500px;
+  width:500px;
+  float:left;
+  margin-right:10px;
   
-  img:nth-of-type(3) {
-      height:500px;
-      width:500px;
-      float:right;
-      margin-right:10px;
-      
-    }
+}
 
   #image1{
     text-align:center;
@@ -139,16 +131,14 @@ img:nth-of-type(1) {
     float:right;
   }
 
-  #image5{
-    text-align:center;
-    float:right;
-    border-radius: 50%;
-    margin:50px auto;
-  } 
-
   #image6{
     text-align:center;
     margin:50px auto;
     float:left;
   }
 
+  #image8{
+    text-align:center;
+    margin:50px auto;
+    float:right;
+  }
