@@ -72,13 +72,8 @@ img {
 }
 
 
-table {
+form {
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: auto;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    float: right;
 }
 
 #contact {
@@ -86,7 +81,7 @@ table {
 }
 
 a[href*="taylor"] {
-    background-color: silver;
+    color:palevioletred;
 }
 
 .sticky {
